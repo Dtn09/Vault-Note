@@ -18,9 +18,6 @@
 # 3x1 + 5x2 + 10x3 = −8
 
 # Solution:
-import micropip
-await micropip.install('numpy')
-
 import numpy as np
 
 # Define the coefficient matrix
