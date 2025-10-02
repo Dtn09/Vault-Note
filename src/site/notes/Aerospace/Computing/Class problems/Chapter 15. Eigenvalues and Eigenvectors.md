@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-02T01:27:16.156-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-02T02:28:20.392-04:00"}
 ---
 
 What is [[Aerospace/Computing/Linear Algebra stuffs/Eigenvalue\|Eigenvalue]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code

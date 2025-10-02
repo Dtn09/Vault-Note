@@ -1,14 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T00:31:06.627-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T08:04:33.197-04:00"}
 ---
 
 What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
 ## Unit 2 in class problems
 ### PDF
 [[Unit_2_Class_Problems.pdf]]
-
-![Screenshot 2025-10-02 at 3.09.36 AM.png](/img/user/Aerospace/Computing/Screenshot%202025-10-02%20at%203.09.36%20AM.png)
-### problem 1
+### problem 1 ![Screenshot 2025-10-02 at 3.09.36 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%203.09.36%20AM.png)
 ```python
 # Solve the following system of linear equations using Gauss-Seidel method, 
 # use a pre-defined threshold ϵ=0.01. Remember to check if the converge condition 
@@ -78,9 +76,7 @@ for k in range(1, 50):
 if not converged:
     print('Not converge, increase the # of iterations')
 ```
-
-![Snipaste_2025-10-02_07-56-38.png](/img/user/Aerospace/Computing/Snipaste_2025-10-02_07-56-38.png)
-### Problem 2
+### Problem 2 ![Snipaste_2025-10-02_07-56-38.png](/img/user/Aerospace/Computing/Attachments/Snipaste_2025-10-02_07-56-38.png)
 ```python
 # Problem 2
 
@@ -106,7 +102,7 @@ x = np.linalg.solve(A, y)
 print(x)
 ```
 
-![Snipaste_2025-10-02_07-59-07.png](/img/user/Aerospace/Computing/Snipaste_2025-10-02_07-59-07.png)
+![Snipaste_2025-10-02_07-59-07.png](/img/user/Aerospace/Computing/Attachments/Snipaste_2025-10-02_07-59-07.png)
 ### Problem 3
 ```python
 # Problem 3
@@ -131,8 +127,8 @@ A_inv = np.linalg.inv(A)
 x = np.dot(A_inv, y)
 print(x)
 ```
-![Snipaste_2025-10-02_08-02-55.png](/img/user/Aerospace/Computing/Snipaste_2025-10-02_08-02-55.png)
-### Problem 4
+
+### Problem 4 ![Snipaste_2025-10-02_08-02-55.png](/img/user/Aerospace/Computing/Attachments/Snipaste_2025-10-02_08-02-55.png)
 ```python
 # Problem 4
 
@@ -267,8 +263,7 @@ a6=accuracy(A, b, I)
 print('I time',t_I,'accuracy',a6)
 ```
 
-![Snipaste_2025-10-02_08-04-20.png](/img/user/Aerospace/Computing/Snipaste_2025-10-02_08-04-20.png)
-### Problem 5
+### Problem 5 ![Snipaste_2025-10-02_08-04-20.png](/img/user/Aerospace/Computing/Attachments/Snipaste_2025-10-02_08-04-20.png)
 ```python
 # Problem 5
 import numpy as np
@@ -333,7 +328,9 @@ plt.show()
 ## Unit 2 Additional problems
 ### PDF
 [[Unit_2_Additional_Class_Problems.pdf]]
-### Problem 1
+
+
+### Problem 1 ![Screenshot 2025-10-02 at 1.40.49 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%201.40.49%20PM.png)
 
 ```python
 # Function implements Gauss-Seidel Method (Specifically for Problem 1)
@@ -425,7 +422,7 @@ display(HTML(df.to_html()))
 ```
 
 
-### Problem 2
+### Problem 2![Screenshot 2025-10-02 at 1.48.09 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%201.48.09%20PM.png)
 
 ```python
 # Function implements Gauss Seidel method for Problem 2
@@ -796,7 +793,7 @@ display(HTML(df.to_html(index=False)))
 ### PDF
 [[Unit_2_Additional_Class_Problems_2.pdf]]
 
-### Problem 1
+### Problem 1 ![Screenshot 2025-10-02 at 1.54.11 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%201.54.11%20PM.png)
 ```python
 # Problem 1
 
@@ -819,7 +816,7 @@ x = la.solve(A,b)
 print("x", x)
 ```
 
-### Problem 2
+### Problem 2![Screenshot 2025-10-02 at 1.56.16 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%201.56.16%20PM.png)
 ```python
 # Problem 2
 
@@ -827,7 +824,7 @@ r = la.norm(b - A @ x)
 print("r", r)
 ```
 
-### Problem 3
+### Problem 3 ![Screenshot 2025-10-02 at 1.57.14 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%201.57.14%20PM.png)
 ```python
 # Problem 3
 
@@ -857,7 +854,7 @@ plt.show()
 print("x", x)
 ```
 
-### Problem 4
+### Problem 4 ![Screenshot 2025-10-02 at 1.59.13 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%201.59.13%20PM.png)
 ```python
 # Problem 4
 
