@@ -13,9 +13,7 @@ My goal is to organize what I'm learning in a clear and accessible way. Currentl
     
 - Aerospace introduction to Systems (in progress)
     
-These notes are a work in progress and reflect my own understanding of the material. They are meant to be a helpful supplement, not a replacement for attending class and doing your own work.
-Use the navigation bar to explore by class, or use the search function to find a specific topic. I hope you find this resource helpful!
+These notes are a work in progress and reflect my own understanding of the material. They are meant to be a helpful supplement, not a replacement for attending class and doing your own work. Use ctrl + k for search function to find a specific topic. I hope you find this resource helpful!
 
 Good Luck with your study!!
-
 Tommy Dang
