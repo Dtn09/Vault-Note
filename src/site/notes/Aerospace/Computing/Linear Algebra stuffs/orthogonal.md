@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/orthogonal/"}
+{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/orthogonal/","noteIcon":"","created":"2025-10-02T02:09:42.968-04:00"}
 ---
 
 

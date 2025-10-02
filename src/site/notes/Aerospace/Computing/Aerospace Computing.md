@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/aerospace-computing/"}
+{"dg-publish":true,"permalink":"/aerospace/computing/aerospace-computing/","noteIcon":"","created":"2025-09-27T21:22:14.089-04:00"}
 ---
 
 

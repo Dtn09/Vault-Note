@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/eigenvalue/"}
+{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/eigenvalue/","noteIcon":"","created":"2025-09-27T21:22:14.159-04:00"}
 ---
 
 
@@ -162,6 +162,50 @@ print("Eigenvectors:\n", eigenvectors)
 - **Vibrations:** Natural frequencies from eigenvalue problem $K \mathbf{x} = \lambda M \mathbf{x}$.
 - **Numerical Methods:** Power/QR for large matrices where direct eig is costly.
 
-**Problem 1:** Apply power method to $A = \begin{pmatrix} 2 & 3 \\ 3 & -6 \end{pmatrix}$ (dominant $\lambda = 3$). Compare with `la.eig`.
+### Problem 1: Power Method on the Example Matrix
+Apply the power method to $A = \begin{pmatrix} 2 & 3 \\ 3 & -6 \end{pmatrix}$. The eigenvalues are $\lambda_1 = 3$ and $\lambda_2 = -7$, so the dominant eigenvalue (largest magnitude) is $\lambda_2 = -7$ (since $|-7| = 7 > 3$). The power method will converge to the eigenvector corresponding to this dominant $\lambda$.
+
+Using the `power_method` function (from earlier):
+
+```python
+import numpy as np
+from scipy import linalg as la
+
+A = np.array([[2, 3], [3, -6]], dtype=float)
+
+# Apply power method
+dominant_eig, dominant_vec = power_method(A, num_iterations=100)
+print("Power method - Dominant eigenvalue:", dominant_eig)
+print("Power method - Dominant eigenvector:", dominant_vec)
+```
+
+Expected output (approximate):
+- Dominant eigenvalue: ≈ -7.0
+- Dominant eigenvector: ≈ [-0.3162, 0.9487] (normalized; matches $\mathbf{v_2} = \begin{pmatrix} -1 \\ 3 \end{pmatrix}$ up to scaling/sign)
+
+**Comparison with `la.eig`:**
+```python
+# Full eig computation
+eigvals, eigvecs = la.eig(A)
+print("la.eig - All eigenvalues:", eigvals)
+print("la.eig - All eigenvectors (columns):\n", eigvecs)
+
+# Identify dominant (largest |λ|)
+dominant_idx = np.argmax(np.abs(eigvals))
+print("\nDominant from la.eig - eigenvalue:", eigvals[dominant_idx])
+print("Dominant from la.eig - eigenvector:", eigvecs[:, dominant_idx])
+
+# Verify convergence (should be close)
+print("\nConvergence check - |power eig - eig eig|:", np.abs(dominant_eig - eigvals[dominant_idx]))
+print("Convergence check - norm diff:", np.linalg.norm(dominant_vec - eigvecs[:, dominant_idx]))
+```
+
+Breakdown:
+- Power method starts with ones vector and iterates $A \mathbf{x} / \|\mathbf{x}\|$, converging to dominant eigenvector.
+- Rayleigh quotient gives $\lambda \approx \mathbf{v}^T A \mathbf{v}$.
+- `np.argmax(np.abs(eigvals))`: Finds index of largest magnitude eigenvalue.
+- `np.linalg.norm(...)`: Checks vector similarity (should be small, e.g., < 1e-10 after normalization).
+- For this $A$, power method accurately finds the dominant pair; `la.eig` gives both. Power method is faster for large matrices but only finds one pair (extend with deflation for others).
+- Note: If initial guess aligns better with smaller eigenvalue, convergence may be slower—randomize if needed.
 
 This ties into orthogonal matrices (QR uses them) and solvers (e.g., performance comparison in additional problems).
