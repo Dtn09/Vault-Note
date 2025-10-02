@@ -4,7 +4,7 @@
 
 ## Unit 2 in class problems
 ### PDF
-![[Unit_2_Class_Problems.pdf]]
+[[Unit_2_Class_Problems.pdf]]
 ### problem 1
 ```python
 # Solve the following system of linear equations using Gauss-Seidel method, 
