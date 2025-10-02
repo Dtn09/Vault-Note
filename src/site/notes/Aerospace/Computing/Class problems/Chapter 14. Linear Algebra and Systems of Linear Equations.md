@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T02:08:53.714-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T00:31:06.627-04:00"}
 ---
 
 What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
 ## Unit 2 in class problems
 ### PDF
-[[Unit_2_Class_Problems.pdf!\|Unit_2_Class_Problems.pdf!]]
+[[Unit_2_Class_Problems.pdf]]
 
 ![Screenshot 2025-10-02 at 3.09.36 AM.png](/img/user/Aerospace/Computing/Screenshot%202025-10-02%20at%203.09.36%20AM.png)
 ### problem 1

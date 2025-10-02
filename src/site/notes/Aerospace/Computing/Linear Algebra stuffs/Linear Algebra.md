@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/linear-algebra/","noteIcon":"","created":"2025-10-02T02:19:43.622-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/linear-algebra/","noteIcon":"","created":"2025-09-27T21:22:14.201-04:00"}
 ---
 
 

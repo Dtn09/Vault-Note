@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/eigenvalue/","noteIcon":"","created":"2025-10-02T02:47:06.934-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/eigenvalue/","noteIcon":"","created":"2025-09-27T21:22:14.159-04:00"}
 ---
 
 
