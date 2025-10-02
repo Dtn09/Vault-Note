@@ -79,6 +79,7 @@ if not converged:
     print('Not converge, increase the # of iterations')
 ```
 
+![Snipaste_2025-10-02_07-56-38.png](/img/user/Aerospace/Computing/Snipaste_2025-10-02_07-56-38.png)
 ### Problem 2
 ```python
 # Problem 2
@@ -105,6 +106,7 @@ x = np.linalg.solve(A, y)
 print(x)
 ```
 
+![Snipaste_2025-10-02_07-59-07.png](/img/user/Aerospace/Computing/Snipaste_2025-10-02_07-59-07.png)
 ### Problem 3
 ```python
 # Problem 3
@@ -129,7 +131,7 @@ A_inv = np.linalg.inv(A)
 x = np.dot(A_inv, y)
 print(x)
 ```
-
+![Snipaste_2025-10-02_08-02-55.png](/img/user/Aerospace/Computing/Snipaste_2025-10-02_08-02-55.png)
 ### Problem 4
 ```python
 # Problem 4
@@ -265,6 +267,7 @@ a6=accuracy(A, b, I)
 print('I time',t_I,'accuracy',a6)
 ```
 
+![Snipaste_2025-10-02_08-04-20.png](/img/user/Aerospace/Computing/Snipaste_2025-10-02_08-04-20.png)
 ### Problem 5
 ```python
 # Problem 5
