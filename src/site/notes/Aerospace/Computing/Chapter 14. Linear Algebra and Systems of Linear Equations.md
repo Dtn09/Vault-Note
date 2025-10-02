@@ -4,7 +4,7 @@
 
 ## Unit 2 in class problems
 ### PDF
-[[Unit_2_Class_Problems.pdf]]
+![[Unit_2_Class_Problems.pdf]]
 ### problem 1
 ```python
 # Solve the following system of linear equations using Gauss-Seidel method, 
@@ -375,8 +375,6 @@ def gauss_seidel(A, b, epsilon=1e-6, max_iter=7):
     if not converged:
         print('Not converge, increase the # of iterations')
         return output_matrix
-```
-```python
 # Problem 1  
 
 # Solve Ta=b, where T is a matrix with coef. as a function of time
@@ -419,6 +417,7 @@ df = pd.DataFrame(output_matrix, columns=["iteration", "a_1", "AbsRelApp%E a_1",
 # Hint: use display from IPython
 display(HTML(df.to_html()))
 ```
+
 
 ### Problem 2
 
