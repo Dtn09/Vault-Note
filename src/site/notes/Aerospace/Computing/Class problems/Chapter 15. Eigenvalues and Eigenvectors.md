@@ -29,7 +29,7 @@ print('\neigenvalues', results[0])
 print('eigenvectors,\n', results[1])
 ```
 
-### Problem 1 ![Screenshot 2025-10-03 at 8.24.38 AM.png](/img/user/Aerospace/Computing/Class%20problems/Screenshot%202025-10-03%20at%208.24.38%20AM.png)
+### Problem 1 ![Screenshot 2025-10-03 at 8.24.38 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-03%20at%208.24.38%20AM.png)
 ```python
 # Example Problem 1: For the case of real roots:
 # Find the eigenvalues and eigenvectors for the following matrix:
@@ -46,7 +46,7 @@ print(f'Eigenvectors: \n{eigvecs}')
 ```
 
 ### Problem 2
-![Screenshot 2025-10-03 at 8.25.02 AM.png](/img/user/Aerospace/Computing/Class%20problems/Screenshot%202025-10-03%20at%208.25.02%20AM.png)
+![Screenshot 2025-10-03 at 8.25.02 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-03%20at%208.25.02%20AM.png)
 ```python
 # Example Problem 2: Write an iterative algorithm that implements
 # the power method to find the dominant eigenvalue and its corresponding eigenvector
@@ -75,7 +75,7 @@ print(f"Corresponding eigenvector: {eigenvector}")
 ```
 
 ### problem 3
-![Screenshot 2025-10-03 at 8.25.17 AM.png](/img/user/Aerospace/Computing/Class%20problems/Screenshot%202025-10-03%20at%208.25.17%20AM.png)
+![Screenshot 2025-10-03 at 8.25.17 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-03%20at%208.25.17%20AM.png)
 ```python
 # Example Problem 3: Write a program that implements the QR algorithm
 # using the Gram-Schmidt process
