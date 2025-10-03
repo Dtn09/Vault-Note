@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T08:04:33.197-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T00:31:06.627-04:00"}
 ---
 
 What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code

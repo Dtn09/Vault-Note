@@ -1,15 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/least-square-regression/","noteIcon":"","created":"2025-10-01T09:13:07.936-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/least-square-regression/","noteIcon":"","created":"2025-10-02T21:09:05.382-04:00"}
 ---
 
 ## What is Least Squares Regression?
 
 Least Squares Regression (often called "Square Regression") is a basic method in stats and machine learning. It helps predict one thing based on another, like guessing exam scores from study hours. The goal? Draw the straight line that best fits your data points. It does this by adding up the squares of the "errors" (gaps between real data and the line) and making that total as small as possible. Squaring the errors means big mistakes count more, so the line avoids them. It's great for simple predictions, like house prices from size, or trends in sales.
 
-## Mathematical Idea (Step by Step)
+## Mathematical Idea
 
 Imagine you have data: x (input, like study hours) and y (output, like scores). We want a line: y = a + b * x
-
 - a is where the line hits the y-axis (starting point).
 - b is the slope (how steep the line is).
 
@@ -27,7 +26,6 @@ We tweak a and b until RSS is smallest. This is done with math: take derivatives
 The easy formulas (no calculus needed):  
 $b = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}$  
 (This is like how x and y move together, divided by how much x varies. It's the correlation times std devs.)
-
 $a = \bar{y} - b \cdot \bar{x}$  
 (Just shifts the line to match averages.)
 
@@ -37,7 +35,6 @@ $a = \bar{y} - b \cdot \bar{x}$
 For more inputs (like multiple factors), it uses matrices, but the idea is the same: minimize squared errors.
 
 **Assumptions:** Data should be roughly linear. Errors shouldn't follow patterns. But it works okay even if not perfect.
-
 ## Coding Example 
 
 We'll use fake data: study hours (x) and scores (y). Fit a line to it.
