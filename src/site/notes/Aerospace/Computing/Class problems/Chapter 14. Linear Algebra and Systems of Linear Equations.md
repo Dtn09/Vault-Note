@@ -6,7 +6,8 @@ What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Lin
 ## Unit 2 in class problems
 ### PDF
 [[Unit_2_Class_Problems.pdf]]
-### problem 1 ![Screenshot 2025-10-02 at 3.09.36 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%203.09.36%20AM.png)
+### problem 1 
+![Screenshot 2025-10-02 at 3.09.36 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%203.09.36%20AM.png)
 ```python
 # Solve the following system of linear equations using Gauss-Seidel method, 
 # use a pre-defined threshold ϵ=0.01. Remember to check if the converge condition 
