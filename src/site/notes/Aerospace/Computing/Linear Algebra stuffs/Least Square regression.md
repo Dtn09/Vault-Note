@@ -87,6 +87,7 @@ By hand: Start point (a) = 45.00, Slope (b) = 5.00
 Library: Start point (a) = 45.00, Slope (b) = 5.00
 R² score = 1.00
 ```
+![Screenshot 2025-10-02 at 9.16.53 PM.png](/img/user/Aerospace/Computing/Linear%20Algebra%20stuffs/Screenshot%202025-10-02%20at%209.16.53%20PM.png)
 
 The line is: $score = 45 + 5 * hours$.  
 It fits perfectly here (R²=1). In real life, aim for R² > 0.7 for a decent model, but always check with more data.

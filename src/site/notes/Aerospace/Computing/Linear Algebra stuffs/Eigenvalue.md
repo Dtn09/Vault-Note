@@ -53,6 +53,11 @@ eigvals, eigvecs = la.eig(A)
 print("Eigenvalues:", eigvals)
 print("Eigenvectors (columns):\n", eigvecs)
 ```
+Output:
+```
+Eigenvalues: [ 3.+0.j -7.+0.j] 
+Eigenvectors (columns): [[ 0.9486833 -0.31622777] [ 0.31622777 0.9486833 ]]
+```
 
 Breakdown:
 - `la.eig(A)`: Returns tuple (eigenvalues as array, eigenvectors as columns of matrix).
@@ -61,6 +66,7 @@ Breakdown:
 - Note: Complex eigenvalues possible; eigenvectors normalized by default.
 
 Verify: $A \mathbf{v} \approx \lambda \mathbf{v}$ (use `np.allclose` for precision).
+
 
 Find eigenvalues/eigenvectors for upper triangular matrix (eigenvalues on diagonal):
 $$
@@ -76,6 +82,14 @@ eigvals, eigvecs = np.linalg.eig(A)  # Or la.eig(A)
 
 print("Eigenvalues:", eigvals)
 print("Eigenvectors:\n", eigvecs)
+```
+Output
+```
+Eigenvalues: [6. 8. 2.] 
+Eigenvectors: 
+			  [[ 1. 0.98058068  0.84270097] 
+			   [ 0. 0.19611614 -0.48154341] 
+			   [ 0. 0.          0.24077171]]
 ```
 - For triangular matrices, eigenvalues are diagonal entries.
 - Eigenvectors: Solve for each $\lambda$ separately.
