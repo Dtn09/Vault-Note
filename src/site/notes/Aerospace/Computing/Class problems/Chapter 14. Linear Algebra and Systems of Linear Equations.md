@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T00:31:06.627-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T08:04:33.197-04:00"}
 ---
 
 What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
@@ -9,16 +9,6 @@ What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Lin
 ### problem 1 
 ![Screenshot 2025-10-02 at 3.09.36 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%203.09.36%20AM.png)
 ```python
-# Solve the following system of linear equations using Gauss-Seidel method, 
-# use a pre-defined threshold ϵ=0.01. Remember to check if the converge condition 
-# is satisfied or not.
-
-# What is a characteristic of the Gauss-Seidel Method?
-
-# 8x1 + 3x2 − 3x3 = 14
-# −2x1 − 8x2 + 5x3 = 5
-# 3x1 + 5x2 + 10x3 = −8
-
 # Solution:
 import numpy as np
 
@@ -42,7 +32,6 @@ else:
 x1 = 0
 x2 = 0
 x3 = 0
-# 
 # Define threshold
 epsilon = 0.01
 
@@ -52,11 +41,10 @@ converged = False
 # Define an array for the the old x estimates
 x_old = np.array([x1, x2, x3])
 
-# Set-up a for loop to calculate the new values
-# of the estimates and print the results for each
-# iteration
 print('Iteration results')
 print(' k,    x1,    x2,    x3 ')
+
+# For loop to iterate 50 times
 for k in range(1, 50):
     x1 = (14-3*x2+3*x3)/8
     x2 = (5+2*x1-5*x3)/(-8)
@@ -80,13 +68,6 @@ if not converged:
 ### Problem 2 ![Snipaste_2025-10-02_07-56-38.png](/img/user/Aerospace/Computing/Attachments/Snipaste_2025-10-02_07-56-38.png)
 ```python
 # Problem 2
-
-# Use numpy.linalg.solve to solve the following equations.
-
-# 4x1 + 3x2 − 5x3 = 2
-# −2x1 − 4x2 + 5x3 = 5
-# 8x1 + 8x2 = −3
-
 # Solution
 import numpy as np
 

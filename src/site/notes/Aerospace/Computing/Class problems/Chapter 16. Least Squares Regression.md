@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-16-least-squares-regression/","noteIcon":"","created":"2025-10-02T20:25:45.090-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-16-least-squares-regression/","noteIcon":"","created":"2025-10-02T20:24:06.011-04:00"}
 ---
 
 What is [[Aerospace/Computing/Linear Algebra stuffs/Least Square regression\|Least Square regression]]? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
@@ -22,8 +22,6 @@ F = np.array([25, 70, 380, 550, 610, 1220, 830, 1450])
 #show a least-squares fit on the plot
 #perform liner regression
 res = stats.linregress(V, F)
-
-#linregress will return an object with multiple attributes,, we are intrested in the following attributes: slope and intercept of the regression
 
 #line and for problem 2 the R^2 value (Pearson Correlation Coefficient)
 plt.plot(V, F, 'r*', label = 'orignal data')

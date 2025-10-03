@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-02T01:27:16.156-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-02T02:28:20.392-04:00"}
 ---
 
 What is [[Aerospace/Computing/Linear Algebra stuffs/Eigenvalue\|Eigenvalue]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
 ## Unit 3 in Class problems
 ### PDF
 [[Unit_3_Class_Problems.pdf]]
-### Introductory problem:
+### Introductory problem:![Screenshot 2025-10-03 at 8.23.56 AM.png](/img/user/Attachment/Screenshot%202025-10-03%20at%208.23.56%20AM.png)
 ```python
 # Introductory Problem: The function scipy.linalg.eig computes eigenvalues and eigenvectors of a square matrix. 
 
@@ -29,7 +29,7 @@ print('\neigenvalues', results[0])
 print('eigenvectors,\n', results[1])
 ```
 
-### Problem 1
+### Problem 1 ![Screenshot 2025-10-03 at 8.24.38 AM.png](/img/user/Aerospace/Computing/Class%20problems/Screenshot%202025-10-03%20at%208.24.38%20AM.png)
 ```python
 # Example Problem 1: For the case of real roots:
 # Find the eigenvalues and eigenvectors for the following matrix:
@@ -46,6 +46,7 @@ print(f'Eigenvectors: \n{eigvecs}')
 ```
 
 ### Problem 2
+![Screenshot 2025-10-03 at 8.25.02 AM.png](/img/user/Aerospace/Computing/Class%20problems/Screenshot%202025-10-03%20at%208.25.02%20AM.png)
 ```python
 # Example Problem 2: Write an iterative algorithm that implements
 # the power method to find the dominant eigenvalue and its corresponding eigenvector
@@ -54,9 +55,7 @@ import numpy as np
 
 def power_method(A: np.ndarray, num_iterations: int):
     n, _ = A.shape  # shape gives a tuple (i.e. n_rows, n_columns)
-    # the underscore after n, indicates that the second item, number of columns, will
-    # be ignored and only the number of rows will be store in n, remember that
-    # a tupe is a single variable that allows us to store multiple items
+    # the underscore after n, indicates that the second item, number of columns, is not used
     eigenvector = np.ones(n)  # vector of 1's of size = n_rows of A
 
     for _ in range(num_iterations):
@@ -76,6 +75,7 @@ print(f"Corresponding eigenvector: {eigenvector}")
 ```
 
 ### problem 3
+![Screenshot 2025-10-03 at 8.25.17 AM.png](/img/user/Aerospace/Computing/Class%20problems/Screenshot%202025-10-03%20at%208.25.17%20AM.png)
 ```python
 # Example Problem 3: Write a program that implements the QR algorithm
 # using the Gram-Schmidt process
@@ -99,27 +99,6 @@ def gram_schmidt(A: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
         Q[:, j] = v / R[j, j]
    
     return Q, R
-  
-# Implementing the QR Algorithm
-# Now that we have the QR decomposition, we can proceed 
-# to implement the QR algorithm for finding eigenvalues.
-
-# Explanation of the QR Algorithm
-
-# Initialization: We start with the matrix A and initialize an identity matrix Q_total 
-# to accumulate the orthogonal transformation.
-# Iteration:
-# Decompose A into Q and R using the Gram-Schmidt process.
-# Update A by multiplying R and Q.
-# Accumulate the transformations by updating Q_total.
-# Convergence:
-# After sufficient iterations, the matrix A will converge to an upper triangular matrix 
-# whose diagonal elements are the eigenvalues of the original matrix.
-# The columns of Q_total will converge to the corresponding eigenvectors.
-
-# QR Algorithm Implementation:
-# The QR algorithm iteratively applies the QR decomposition to a matrix and 
-# updates it to find the eigenvalues. Here’s how we can implement it together with use:
 
 def qr_algorithm( A: np.ndarray, numx_iterations: int = 100) -> tuple[np.ndarray, np.ndarray]:
     n, _ = A.shape
