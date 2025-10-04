@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-02T02:28:20.392-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-02T01:27:16.156-04:00"}
 ---
 
 What is [[Aerospace/Computing/Linear Algebra stuffs/Eigenvalue\|Eigenvalue]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
@@ -116,13 +116,13 @@ def qr_algorithm( A: np.ndarray, numx_iterations: int = 100) -> tuple[np.ndarray
 A = np.array([[4.0, 1.0], [2.0, 3.0]])
 eigenvalues, Q = qr_algorithm(A)
 print("Eigenvalues:", eigenvalues)
-print()
 print("Eigenvectors:\n", Q)
 ```
 ## Unit 3 Additional class problem
 ### PDF
 [[Unit_3_Additional_Class_Problem.pdf]]
 ### Practice problem
+![Screenshot 2025-10-03 at 8.30.05 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-03%20at%208.30.05%20AM.png)
 ```python
 import numpy as np
 import scipy.linalg as la

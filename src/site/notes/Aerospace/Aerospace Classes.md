@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/aerospace-classes/","tags":["gardenEntry"],"noteIcon":"","created":"2025-10-02T01:39:12.276-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/aerospace-classes/","tags":["gardenEntry"],"noteIcon":"","created":"2025-10-02T00:10:07.801-04:00"}
 ---
 
 # **Welcome to My Engineering Notes**

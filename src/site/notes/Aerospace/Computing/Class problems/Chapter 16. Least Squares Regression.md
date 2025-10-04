@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-16-least-squares-regression/","noteIcon":"","created":"2025-10-02T20:24:06.011-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-16-least-squares-regression/","noteIcon":"","created":"2025-10-02T20:25:45.090-04:00"}
 ---
 
 What is [[Aerospace/Computing/Linear Algebra stuffs/Least Square regression\|Least Square regression]]? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
@@ -8,7 +8,7 @@ What is [[Aerospace/Computing/Linear Algebra stuffs/Least Square regression\|Lea
 ### PDF
 [[Unit_4_Class_Problems.pdf]]
 ### Problem 1
-![Screenshot 2025-10-02 at 8.36.48 PM.png](/img/user/Screenshot%202025-10-02%20at%208.36.48%20PM.png)
+![Screenshot 2025-10-02 at 8.36.48 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.36.48%20PM.png)
 ```python
 # Problem 1
 import numpy as np

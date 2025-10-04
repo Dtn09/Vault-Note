@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T08:04:33.197-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T00:31:06.627-04:00"}
 ---
 
-What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
+What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code 
 ## Unit 2 in class problems
 ### PDF
 [[Unit_2_Class_Problems.pdf]]
@@ -14,7 +14,6 @@ import numpy as np
 
 # Define the coefficient matrix
 a = [[8, 3, -3], [-2, -8, 5], [3, 5, 10]]
-
 # Find diagonal coefficients
 diag = np.diag(np.abs(a)) 
 print('diag', diag)
@@ -116,9 +115,8 @@ print(x)
 
 # Five different approaches will be used to solve the system of equations. The functions to implement each of the 
 # approaches are first defined and then the problem is solved. I encourage you to move these functions to your numMethods Module
-# such that this code is not so cumbersome to view. 
-
 # import libraries
+
 from scipy.linalg import lu
 
 import time
@@ -126,7 +124,6 @@ import time
 import numpy as np
 from numpy import dot
 
-##############################################################################################################################
 # Gauss-Seidel
 def gauss_seidel(A, b, x0, epsilon, max_iterations):
     n = len(A)
@@ -142,18 +139,21 @@ def gauss_seidel(A, b, x0, epsilon, max_iterations):
             return x_new
         x = x_new
     return x
-################################################################################################################################
+
+# Swap crammer function
 def swapCramer(a, b, i):
     import numpy as np
     ai = a.copy()
     ai[:, i] = np.transpose(b)
     return ai
-############################################################################################################################
+
+# error handling function
 def err(string):
     print(string)
     input('Press return to exit')
     sys.exit()
-############################################################################################################################
+
+# Cramer function
 def cramer(a, b):
     n = len(a)
     x = b.copy()
@@ -171,18 +171,15 @@ def cramer(a, b):
         if det_ai == 0 and det_a == 0:
             print('Indeterminant solution in Cramer\n')
         
-        x[i] = det_ai / det_a
-        
+        x[i] = det_ai / det_a   
     return x
-###########################################################################################################################
+
+# accuracy function
 def accuracy(a, b, x):
-    
     return np.linalg.norm(np.dot(a, x) - b)
-##########################################################################################################################
+
 # Solve Problem:
-
 # Create A
-
 n = 20
 A = np.zeros((n,n))
 
@@ -204,9 +201,7 @@ b[n-1] = 100
 x = np.zeros(n)
 x[n-1] = 100
 
-# Implement each method and calculate the accuracy for each method and time how long it takes
-
-# LU decomposition
+# LU decomposition polt
 start_time = time.perf_counter()
 P, L, U = lu(A)
 y1 = gauss_seidel(L, b, x, 0.001, 20)
@@ -340,6 +335,7 @@ def gauss_seidel(A, b, epsilon=1e-6, max_iter=7):
         x1 = (b[0]-A[0,1]*x2-A[0,2]*x3)/A[0,0]
         x2 = (b[1]-A[1,0]*x1-A[1,2]*x3)/A[1,1]
         x3 = (b[2]-A[2,0]*x1-A[2,1]*x2)/A[2,2]
+        
         x = np.array([x1, x2, x3])
         # Calculate absolute relative approximate error 
         error_1 = abs((x1-x1_old)/x1)*100
