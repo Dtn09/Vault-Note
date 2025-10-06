@@ -10,4 +10,7 @@
 
 [[Aerospace/Computing/Class problems/Chapter 16. Least Squares Regression\|Chapter 16. Least Squares Regression]]
 
+[[Aerospace/Computing/Class problems/Chapter 17. Interpolation\|Chapter 17. Interpolation]]
+
+
 
