@@ -4,7 +4,7 @@
 
 [[Aerospace/Computing/Class problems/Important Libraries to import\|Important Libraries to import]]
 ## The book
-If you want to read: [[Aerospace/Computing/Books chapter/Book Chapters\|Book Chapters]]
+If you want to read: [[Book Chapters\|Book Chapters]]
 
 ## In class Code
 [[Aerospace/Computing/Class problems/Chapter 14. Linear Algebra and Systems of Linear Equations\|Chapter 14. Linear Algebra and Systems of Linear Equations]]

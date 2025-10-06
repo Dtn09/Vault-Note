@@ -907,3 +907,11 @@ plt.plot(x,'b.'), plt.grid(True), plt.ylim([0,60])
 plt.show()
 ```
 
+### Problem 4
+![Screenshot 2025-10-02 at 8.43.04 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.43.04%20PM.png)
+### Problem 5
+![Screenshot 2025-10-02 at 8.44.00 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.44.00%20PM.png)
+### Problem 6
+![Screenshot 2025-10-02 at 8.45.31 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.45.31%20PM.png)
+### Problem 7
+![Screenshot 2025-10-02 at 8.47.03 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.47.03%20PM.png)

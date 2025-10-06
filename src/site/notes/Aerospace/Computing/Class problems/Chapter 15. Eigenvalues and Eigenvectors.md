@@ -2,7 +2,12 @@
 {"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-04T17:49:16.442-04:00"}
 ---
 
+# Prerequisite
 What is [[Aerospace/Computing/Linear Algebra stuffs/Eigenvalue\|Eigenvalue]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code
+# Reading Chapter
+> [!NOTE] This is a google drive file
+> To see them or download you can just press on <font color="#4bacc6">Open the document directly</font>. 
+[[Aerospace/Computing/Books chapter/Chapter 15\|Chapter 15]]
 ## Unit 3 in Class problems
 ### PDF
 [[Unit_3_Class_Problems.pdf]]
