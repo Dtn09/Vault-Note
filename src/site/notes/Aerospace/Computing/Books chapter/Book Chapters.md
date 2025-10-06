@@ -8,3 +8,7 @@
 > These file are split from the PDF book, the format is 100% correct compared to the website one!
 
 [[Aerospace/Computing/Books chapter/Chapter 14\|Chapter 14]]
+[[Aerospace/Computing/Books chapter/Chapter 15\|Chapter 15]]
+[[Aerospace/Computing/Books chapter/Chapter 16\|Chapter 16]]
+[[Aerospace/Computing/Books chapter/Chapter 17\|Chapter 17]]
+
