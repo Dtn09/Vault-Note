@@ -3,7 +3,7 @@
 ---
 
 # Prerequisite
-What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code.
+What is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code.
 
 # Reading Chapter
 > [!NOTE] This is a google drive file
