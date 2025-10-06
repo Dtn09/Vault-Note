@@ -33,7 +33,7 @@ Pros: Exact fit. Cons: High degrees (Runge's phenomenon) oscillate wildly near e
 
 - **Newton Form:** Builds incrementally, good for adding points. Uses divided differences.
 
-For least squares twist (when points > degree +1): Minimize errors instead of exact fit, using normal equations as in regression: Solve $A^T A \mathbf{a} = A^T \mathbf{y}$ for coefficients $\mathbf{a}$.
+For least squares twist (when points > degree +1): Minimize errors instead of exact fit, using normal equations as in regression: Solve $A^T A \mathbf{a} = A^T \mathbf{y}$ for coefficients $\mathbf{a}$. (Here, $A^T$ is the transpose of the design matrix $A$, which swaps rows and columns to make the equations solvable—essentially projecting the data onto the column space of $A$ for the best approximation.)
 
 ### 3. Spline Interpolation
 Piecewise polynomials (usually cubics) with smoothness constraints. Avoids oscillations of high-degree polynomials. Cubic splines ensure continuous first/second derivatives.
@@ -121,5 +121,3 @@ print(f"Least Squares R²: {r2:.3f}")
 ```
 
 These examples show linear for simplicity and polynomial for curves. For splines, use `scipy.interpolate.CubicSpline`. Always validate with cross-validation in noisy data.
-
-For more advanced topics, see [[Aerospace/Computing/Linear Algebra stuffs/Least Square regression\|Least Square regression]] for deeper regression ties or numerical analysis texts.
