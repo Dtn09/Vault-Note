@@ -2,7 +2,13 @@
 {"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T08:04:33.197-04:00"}
 ---
 
-What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code 
+# Prerequisite
+What the hell is [[Aerospace/Computing/Linear Algebra stuffs/Linear Algebra\|Linear Algebra]] ? How do we able to use it to solve these problems? Read this and try to understand before we tackle down these code.
+
+# Reading Chapter
+> [!NOTE] This is a google drive file
+> To see them or download you can just press on <font color="#4bacc6">Open the document directly</font>. 
+[[Aerospace/Computing/Books chapter/Chapter 14\|Chapter 14]]
 ## Unit 2 in class problems
 ### PDF
 [[Unit_2_Class_Problems.pdf]]

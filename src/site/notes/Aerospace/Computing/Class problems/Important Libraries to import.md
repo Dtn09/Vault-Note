@@ -3,7 +3,7 @@
 ---
 
 > [!tip] If you don't know what to import
-> just copy of "Quick copy library" below to your Jupyter notebook
+> just copy of "<font color="#4bacc6">Quick copy library</font>" below to your Jupyter notebook
 ## Quick copy library 
 ```python
 import numpy as np
