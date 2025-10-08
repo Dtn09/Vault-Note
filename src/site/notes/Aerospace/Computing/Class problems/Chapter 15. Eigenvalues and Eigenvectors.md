@@ -153,11 +153,6 @@ qr_errors = []
 # ----------------------------------------------------------------------
 
 def gram_schmidt(A: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
-    """
-    Performs Gram-Schmidt orthonormalization.
-    Returns Q (orthogonal matrix) and R (upper triangular matrix)
-    such that A = QR.
-    """
     n, m = A.shape
     Q = np.zeros((n, m))
     R = np.zeros((m, m))  # Corrected R to be square
