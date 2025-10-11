@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/aerospace-classes/","tags":["gardenEntry"],"noteIcon":"","created":"2025-10-02T01:39:12.276-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/aerospace-classes/","tags":["gardenEntry"],"noteIcon":"","created":"2025-10-02T00:10:07.801-04:00"}
 ---
 
 # **Welcome to My Engineering Notes**
@@ -9,7 +9,7 @@ My goal is to organize what I'm learning in a clear and accessible way. Currentl
 
 - [[Aerospace/Computing/Aerospace Computing\|Aerospace Computing]]
     
-- Statics and Strength of Materials (in progress)
+- [[Aerospace/Static and strength/Statics and Strength of Materials\|Statics and Strength of Materials]] 
     
 - Aerospace introduction to Systems (in progress)
     

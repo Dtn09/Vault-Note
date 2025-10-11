@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T08:04:33.197-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-14-linear-algebra-and-systems-of-linear-equations/","noteIcon":"","created":"2025-10-02T00:31:06.627-04:00"}
 ---
 
 # Prerequisite

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/aerospace-computing/","noteIcon":"","created":"2025-10-04T18:05:50.607-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/aerospace-computing/","noteIcon":"","created":"2025-09-27T21:22:14.089-04:00"}
 ---
 
 [[Aerospace/Computing/Class problems/Important Libraries to import\|Important Libraries to import]]

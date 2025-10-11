@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/least-square-regression/","noteIcon":"","created":"2025-10-02T22:58:42.911-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/least-square-regression/","noteIcon":"","created":"2025-10-02T21:09:05.382-04:00"}
 ---
 
 ## What is Least Squares Regression?

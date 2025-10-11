@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-04T17:49:16.442-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-02T01:27:16.156-04:00"}
 ---
 
 # Prerequisite

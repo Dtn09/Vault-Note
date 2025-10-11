@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/jupyter-notebook/linear-algebra-stuffs/linear-algebra/","noteIcon":"","created":"2025-10-02T02:19:43.622-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/jupyter-notebook/linear-algebra-stuffs/linear-algebra/","noteIcon":"","created":"2025-10-09T12:33:56.884-04:00"}
 ---
 
 

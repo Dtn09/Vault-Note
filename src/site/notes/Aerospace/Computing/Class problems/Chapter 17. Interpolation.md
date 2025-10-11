@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-17-interpolation/","noteIcon":"","created":"2025-10-06T00:12:32.659-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-17-interpolation/","noteIcon":"","created":"2025-10-06T00:12:52.485-04:00"}
 ---
 
 # Prerequisite

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-16-least-squares-regression/","noteIcon":"","created":"2025-10-02T20:24:06.011-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-16-least-squares-regression/","noteIcon":"","created":"2025-10-02T20:25:45.090-04:00"}
 ---
 
 # Prerequisite

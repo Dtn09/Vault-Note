@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/jupyter-notebook/linear-algebra-stuffs/orthogonal/","noteIcon":"","created":"2025-10-02T02:21:23.705-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/jupyter-notebook/linear-algebra-stuffs/orthogonal/","noteIcon":"","created":"2025-10-09T12:33:56.847-04:00"}
 ---
 
 

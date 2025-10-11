@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/jupyter-notebook/linear-algebra-stuffs/eigenvalue/","noteIcon":"","created":"2025-10-02T02:47:06.934-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/jupyter-notebook/linear-algebra-stuffs/eigenvalue/","noteIcon":"","created":"2025-10-09T12:33:56.882-04:00"}
 ---
 
 

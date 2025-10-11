@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/jupyter-notebook/linear-algebra-stuffs/interpolation/","tags":["interpolation","numerical-methods","linear-algebra"],"noteIcon":"","created":"2025-10-06T00:15:55.686-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/jupyter-notebook/linear-algebra-stuffs/interpolation/","tags":["interpolation","numerical-methods","linear-algebra"],"noteIcon":"","created":"2025-10-09T12:33:56.849-04:00"}
 ---
 
 
