@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-16-least-squares-regression/","noteIcon":"","created":"2025-10-02T20:25:45.090-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-16-least-squares-regression/","noteIcon":"","created":"2025-10-02T20:24:06.011-04:00"}
 ---
 
 # Prerequisite
@@ -7,12 +7,12 @@ What is [[Aerospace/Computing/Linear Algebra stuffs/Least Square regression\|Lea
 # Reading Chapter
 > [!NOTE] This is a google drive file
 > To see them or download you can just press on <font color="#4bacc6">Open the document directly</font>. 
-[[Aerospace/Computing/Books chapter/Chapter 16\|Chapter 16]]
+[[Aerospace/Computing/Google Drive chapter/Chapter 16\|Chapter 16]]
 ## Unit 4 in Class problems
 ### PDF
 [[Unit_4_Class_Problems.pdf]]
 ### Problem 1
-![Screenshot 2025-10-02 at 8.36.48 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.36.48%20PM.png)
+![Screenshot 2025-10-02 at 8.36.48 PM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-02%20at%208.36.48%20PM.png)
 ```python
 # Problem 1
 import numpy as np
@@ -38,7 +38,7 @@ plt.show()
 print('intercept', np.round(res.intercept, 4))
 print('slope', np.round(res.slope, 4))
 ```
-### Problem 2![Screenshot 2025-10-02 at 8.38.14 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.38.14%20PM.png)
+### Problem 2![Screenshot 2025-10-02 at 8.38.14 PM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-02%20at%208.38.14%20PM.png)
 ```python
 # Problem 2
 # compute the correlation coefficient
@@ -47,7 +47,7 @@ print('R-squared', np.round(res.rvalue**2, 4))
 # Results indicate that 88.05% of the orignal uncertainty of the linear model
 ```
 ### Problem 3
-![Screenshot 2025-10-02 at 8.39.04 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.39.04%20PM.png)
+![Screenshot 2025-10-02 at 8.39.04 PM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-02%20at%208.39.04%20PM.png)
 ```python
 # Problem 3: Fit a second-order ploynomial to the data
 # import libraries

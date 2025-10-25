@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-02T01:27:16.156-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-15-eigenvalues-and-eigenvectors/","noteIcon":"","created":"2025-10-04T17:49:16.442-04:00"}
 ---
 
 # Prerequisite
@@ -7,7 +7,7 @@ What is [[Aerospace/Computing/Linear Algebra stuffs/Eigenvalue\|Eigenvalue]] ? H
 # Reading Chapter
 > [!NOTE] This is a google drive file
 > To see them or download you can just press on <font color="#4bacc6">Open the document directly</font>. 
-[[Aerospace/Computing/Books chapter/Chapter 15\|Chapter 15]]
+[[Aerospace/Computing/Google Drive chapter/Chapter 15\|Chapter 15]]
 ## Unit 3 in Class problems
 ### PDF
 [[Unit_3_Class_Problems.pdf]]
@@ -34,7 +34,7 @@ print('\neigenvalues', results[0])
 print('eigenvectors,\n', results[1])
 ```
 
-### Problem 1 ![Screenshot 2025-10-03 at 8.24.38 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-03%20at%208.24.38%20AM.png)
+### Problem 1 ![Screenshot 2025-10-03 at 8.24.38 AM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-03%20at%208.24.38%20AM.png)
 ```python
 # Example Problem 1: For the case of real roots:
 # Find the eigenvalues and eigenvectors for the following matrix:
@@ -51,7 +51,7 @@ print(f'Eigenvectors: \n{eigvecs}')
 ```
 
 ### Problem 2
-![Screenshot 2025-10-03 at 8.25.02 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-03%20at%208.25.02%20AM.png)
+![Screenshot 2025-10-03 at 8.25.02 AM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-03%20at%208.25.02%20AM.png)
 ```python
 # Example Problem 2: Write an iterative algorithm that implements
 # the power method to find the dominant eigenvalue and its corresponding eigenvector
@@ -80,7 +80,7 @@ print(f"Corresponding eigenvector: {eigenvector}")
 ```
 
 ### problem 3
-![Screenshot 2025-10-03 at 8.25.17 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-03%20at%208.25.17%20AM.png)
+![Screenshot 2025-10-03 at 8.25.17 AM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-03%20at%208.25.17%20AM.png)
 ```python
 # Example Problem 3: Write a program that implements the QR algorithm
 # using the Gram-Schmidt process
@@ -127,7 +127,7 @@ print("Eigenvectors:\n", Q)
 ### PDF
 [[Unit_3_Additional_Class_Problem.pdf]]
 ### Practice problem
-![Screenshot 2025-10-03 at 8.30.05 AM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-03%20at%208.30.05%20AM.png)
+![Screenshot 2025-10-03 at 8.30.05 AM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-03%20at%208.30.05%20AM.png)
 ```python
 import numpy as np
 import scipy.linalg as la

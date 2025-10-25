@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-17-interpolation/","noteIcon":"","created":"2025-10-06T00:12:52.485-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/class-problems/chapter-17-interpolation/","noteIcon":"","created":"2025-10-06T00:12:32.659-04:00"}
 ---
 
 # Prerequisite
@@ -7,13 +7,13 @@ What is [[Aerospace/Computing/Linear Algebra stuffs/Interpolation\|Interpolation
 # Reading Chapter
 > [!NOTE] This is a google drive file
 > To see them or download you can just press on <font color="#4bacc6">Open the document directly</font>. 
-[[Aerospace/Computing/Books chapter/Chapter 17\|Chapter 17]]
+[[Aerospace/Computing/Google Drive chapter/Chapter 17\|Chapter 17]]
 
 ## Unit 4 in Class problems
 ### PDF
 [[Unit_4_Class_Problems.pdf]]
 ### Problem 4
-![Screenshot 2025-10-02 at 8.43.04 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.43.04%20PM.png)
+![Screenshot 2025-10-02 at 8.43.04 PM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-02%20at%208.43.04%20PM.png)
 ```python
 # problem 4
 import numpy as np 
@@ -41,9 +41,9 @@ print(Answer2)
 ```
 #### Output:
 
-![Screenshot 2025-10-09 at 5.59.01 PM.png|center|400](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-09%20at%205.59.01%20PM.png)
+![Screenshot 2025-10-09 at 5.59.01 PM.png|center|400](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-09%20at%205.59.01%20PM.png)
 ### Problem 5
-![Screenshot 2025-10-02 at 8.44.00 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.44.00%20PM.png)
+![Screenshot 2025-10-02 at 8.44.00 PM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-02%20at%208.44.00%20PM.png)
 ```python
 # problem 5
 import numpy as np 
@@ -75,10 +75,10 @@ print(p)
 ```
 #### Output:
 
-![Screenshot 2025-10-09 at 6.00.32 PM.png|center|400](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-09%20at%206.00.32%20PM.png)
+![Screenshot 2025-10-09 at 6.00.32 PM.png|center|400](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-09%20at%206.00.32%20PM.png)
 
 ### Problem 6
-![Screenshot 2025-10-02 at 8.45.31 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.45.31%20PM.png)
+![Screenshot 2025-10-02 at 8.45.31 PM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-02%20at%208.45.31%20PM.png)
 ```python
 # problem 6
 # using lagrange interpolation estimate the accuracy of interpolated at mach= 0.23
@@ -99,9 +99,9 @@ Answer1 = poly(0.23)
 print(Answer1)
 ```
 #### Output:
-![Screenshot 2025-10-09 at 6.02.30 PM.png|center|400](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-09%20at%206.02.30%20PM.png)
+![Screenshot 2025-10-09 at 6.02.30 PM.png|center|400](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-09%20at%206.02.30%20PM.png)
 ### Problem 7
-![Screenshot 2025-10-02 at 8.47.03 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%208.47.03%20PM.png)
+![Screenshot 2025-10-02 at 8.47.03 PM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-02%20at%208.47.03%20PM.png)
 #### a)
 ```python
 # part A
@@ -148,7 +148,7 @@ for i in range(n):
     print(f'node {i+1}: {x[i]} °C')
 ```
 #### output
-![Screenshot 2025-10-09 at 5.48.05 PM.png|center|250](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-09%20at%205.48.05%20PM.png)
+![Screenshot 2025-10-09 at 5.48.05 PM.png|center|250](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-09%20at%205.48.05%20PM.png)
 #### b)
 ```python
 # Create a temperature matrix T to look like the one in the problem
@@ -191,7 +191,7 @@ for i in range(4):
     print(f'{Cubic_spline(x_midval[i]):.4f} °C')
 ```
 #### Output:
-![Screenshot 2025-10-09 at 5.52.48 PM.png|center|400](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-09%20at%205.52.48%20PM.png)
+![Screenshot 2025-10-09 at 5.52.48 PM.png|center|400](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-09%20at%205.52.48%20PM.png)
 #### c)
 ```python
 # Create a smooth x-axis for a nice curve
@@ -232,4 +232,4 @@ print(f"Maximum absolute difference between methods: {max_error:.4f} °C")
 Cubic spline interpolation is superior to linear interpolation because The graph clearly shows that the cubic spline curve provides a closer fit to the "true" node temperatures than the linear estimates. it shown that the the original data is on the line of the function.
 
 #### Output:
-![Screenshot 2025-10-09 at 5.56.22 PM.png|center|400](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-09%20at%205.56.22%20PM.png)
+![Screenshot 2025-10-09 at 5.56.22 PM.png|center|400](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-09%20at%205.56.22%20PM.png)

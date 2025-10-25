@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/least-square-regression/","noteIcon":"","created":"2025-10-02T21:09:05.382-04:00"}
+{"dg-publish":true,"permalink":"/aerospace/computing/linear-algebra-stuffs/least-square-regression/","noteIcon":"","created":"2025-10-02T22:58:42.911-04:00"}
 ---
 
 ## What is Least Squares Regression?
@@ -84,7 +84,7 @@ By hand: Start point (a) = 45.00, Slope (b) = 5.00
 Library: Start point (a) = 45.00, Slope (b) = 5.00
 R² score = 1.00
 ```
-![Screenshot 2025-10-02 at 9.16.53 PM.png](/img/user/Aerospace/Computing/Attachments/Screenshot%202025-10-02%20at%209.16.53%20PM.png)
+![Screenshot 2025-10-02 at 9.16.53 PM.png](/img/user/Aerospace/Computing/Attachment/Screenshot%202025-10-02%20at%209.16.53%20PM.png)
 
 The line is: $score = 45 + 5 * hours$.  
 It fits perfectly here (R²=1). In real life, aim for R² > 0.7 for a decent model, but always check with more data.
