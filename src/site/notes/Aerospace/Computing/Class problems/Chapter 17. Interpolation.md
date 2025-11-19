@@ -212,7 +212,7 @@ plt.legend()
 plt.show()
 ```
 #### Output:
-![output.png|center|400](/img/user/output.png)
+![[output.png\|center]]
 
 #### d)
 ```python
