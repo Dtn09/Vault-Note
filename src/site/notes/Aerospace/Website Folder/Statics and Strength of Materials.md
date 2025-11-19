@@ -27,3 +27,6 @@
 [[Aerospace/Static and strength/Week problems/Part 5 week problems\|Part 5 week problems]]
 [[Aerospace/Static and strength/Homework problems/Part 5 Homework problems\|Part 5 Homework problems]]
 
+## Part 8: Statics of Rigid Bodies in 3D (Moments)
+[[Aerospace/Static and strength/Week problems/Part 8 week problems\|Part 8 week problems]]
+
