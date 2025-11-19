@@ -3,11 +3,69 @@
 ---
 
 
-## Problem Statement
+## Question 1 (start of the week)
+
+Given: $P = 90 \text{ lb}$. Determine the force in member $BD$. Answer in lb , positive values indicate tension.
+
+![Part 8 week problems-1763574770465.jpeg|center|250](/img/user/image/Part%208%20week%20problems-1763574770465.jpeg)
+
+**Given:**
+*   Force $P = 90 \text{ lb}$ acting to the left at A.
+*   Structure dimensions: $AC = 12 \text{ in}$, $BC = 4.5 \text{ in}$, $CD = 6 \text{ in}$.
+
+## Step-by-Step Solution
+
+### 1. Analyze the Structure
+*   **Member BD:** Connected by pins at B and D with no intermediate loads. This is a **two-force member**. The force acts along the line BD. Let's assume it is in **Tension** (pulling away from the joints).
+*   **Member AC:** A vertical beam pinned at C.
+
+### 2. Geometry of Member BD
+We need the components of the force acting along BD.
+*   Vertical rise = $4.5 \text{ in}$.
+*   Horizontal run = $6 \text{ in}$.
+*   Length of BD = $\sqrt{4.5^2 + 6^2} = \sqrt{20.25 + 36} = 7.5 \text{ in}$.
+*   **Force Components Factors:**
+    *   Horizontal: $\cos \theta = \frac{6}{7.5} = 0.8$
+    *   Vertical: $\sin \theta = \frac{4.5}{7.5} = 0.6$
+
+### 3. Free Body Diagram of Member AC
+We isolate member AC and sum moments about the pin C to find the unknown force $F_{BD}$.
+*   **Forces acting on AC:**
+    1.  **Applied Load P:** $90 \text{ lb}$ acting Left at A.
+    2.  **Reaction at C:** Unknown forces $C_x, C_y$ (Moment arm = 0).
+    3.  **Force from BD ($F_{BD}$):** Acts at B. Assuming tension, BD pulls B **Down** and to the **Right**.
+
+### 4. Sum of Moments about C ($\sum M_C = 0$)
+Let Counter-Clockwise (CCW) be positive.
+
+1.  **Moment from P:**
+    *   Force = $90 \text{ lb}$
+    *   Lever arm = $12 \text{ in}$ (Vertical distance A to C)
+    *   Direction: Pushing left at the top creates a **CCW** rotation.
+    *   $M_P = +(90)(12) = +1080 \text{ lb}\cdot\text{in}$
+
+2.  **Moment from $F_{BD}$:**
+    *   **Vertical Component ($0.6 F_{BD}$):** Its line of action passes directly through the pivot C (since AC is vertical). Moment = 0.
+    *   **Horizontal Component ($0.8 F_{BD}$):** Acts to the Right. Lever arm = $4.5 \text{ in}$ (distance C to B). Creates a **CW** rotation.
+    *   $M_{BD} = -(0.8 F_{BD})(4.5) = -3.6 F_{BD}$
+
+**Equilibrium Equation:**
+$$ \sum M_C = 1080 - 3.6 F_{BD} = 0 $$
+$$ 3.6 F_{BD} = 1080 $$
+$$ F_{BD} = \frac{1080}{3.6} $$
+$$ F_{BD} = 300 \text{ lb} $$
+
+### Final Answer
+The positive result confirms the member is in tension.
+$$ \mathbf{F_{BD} = 300 \text{ lb}} $$
+
+---
+
+## Question 2 (end of week)
 
 Determine the vertical component of the reaction at pin C ($C_y$).
 
-![Part 8 week problems-1763573353007.jpeg|center|300](/img/user/image/Part%208%20week%20problems-1763573353007.jpeg)
+![Part 8 week problems-1763574837261.jpeg|center|300](/img/user/image/Part%208%20week%20problems-1763574837261.jpeg)
 
 **Given:**
 *   Member BDC is a rigid L-shaped body supported by a pin at C.
