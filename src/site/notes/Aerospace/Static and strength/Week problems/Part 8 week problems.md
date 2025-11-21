@@ -71,7 +71,7 @@ Determine the vertical component of the reaction at pin C ($C_y$).
 *   Member BDC is a rigid L-shaped body supported by a pin at C.
 *   Member AB is a two-force member connected at B.
 *   A moment $M = 745 \text{ N}\cdot\text{m}$ acts at D (Counter-Clockwise).
-*   A vertical load of $400 \text{ N}$ acts 2m to the left of C.
+*   A vertical load of $400 \text{ N}$ acts 2 m to the left of C.
 
 ## Step-by-Step Solution
 
